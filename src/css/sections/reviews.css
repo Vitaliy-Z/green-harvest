@@ -40,3 +40,14 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.review-title {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  max-width: 553px;
+  color: black;
+}
