@@ -1,191 +1,38 @@
-/* 
+/* npm run dev*/
 /* Image Section */
 
 .imageSection {
-  background-color: #7a3145;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 40px 0;
-}
-
-.hImage {
-  gap: 0px;
-  border-radius: 30px 0px 0px 0px;
-  opacity: 0px;
-}
-
-/* Info Section */
-
-.infoSection {
-  background-color: #576f35;
-  padding: 80px 20px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.textContainer {
-  gap: 20px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.headText {
-  font-family: Inter Tight;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: -0.015em;
-  text-align: left;
-  color: #fbfbfb;
-  width: 335px;
-}
-
-.paragraphText {
-  font-family: Inter Tight;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 18px;
-  text-align: left;
-  color: #fbfbfb;
-  width: 335px;
-}
-
-.listContainer {
-  max-width: 335px;
-}
-
-.ulList {
-  counter-reset: listItem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 12px 27px 12px 24px;
-  gap: 10px;
-  border-radius: 15px 0px 0px 0px;
-}
-
-.listItem {
-  background-color: #fbfbfb;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-
-  font-family: Inter Tight;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 14px;
-  letter-spacing: -0.02em;
-  text-align: left;
-
-  padding: 12px 27px 12px 24px;
-  gap: 10px;
-  border-radius: 15px 0px 0px 0px;
-  opacity: 0px;
-
-  border-radius: 15px;
-  max-width: 500px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.listItem::before {
-  counter-increment: listItem;
-  display: block;
-  content: counter(listItem);
-  width: 20px;
-  height: 20px;
-  background-color: #7a3145;
-}
-
-.liParagraph {
-  font-family: Inter Tight;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 14px;
-  letter-spacing: -0.02em;
-  text-align: left;
-
-  color: #14141499;
-}
-
-.liParagraphSpan {
-  font-family: Inter Tight;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 14px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  background: #141414;
-}
-
-.headingSpan {
-  font-family: Inter Tight;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: -0.015em;
-  text-align: left;
-  color: #fbfbfb4d;
-}
-
-/* Styles for Mobile devices */
-section {
-  padding: 80px 0;
-}
-
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
-  section {
-    padding: 100px 0;
-  }
-
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
-  /* Image Section */
-
-  .imageSection {
     background-color: #7a3145;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 40px 0;
-  }
+}
 
-  .hImage {
+.hImage {
     gap: 0px;
     border-radius: 30px 0px 0px 0px;
     opacity: 0px;
-  }
+}
 
-  /* Info Section */
+/* Info Section */
 
-  .infoSection {
+.infoSection {
     background-color: #576f35;
     padding: 80px 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .textContainer {
+.textContainer {
     gap: 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .headText {
+.headText {
     font-family: Inter Tight;
     font-size: 28px;
     font-weight: 600;
@@ -194,9 +41,9 @@ section {
     text-align: left;
     color: #fbfbfb;
     width: 335px;
-  }
+}
 
-  .paragraphText {
+.paragraphText {
     font-family: Inter Tight;
     font-size: 14px;
     font-weight: 500;
@@ -204,45 +51,51 @@ section {
     text-align: left;
     color: #fbfbfb;
     width: 335px;
-  }
+}
 
-  .listContainer {
+.listContainer {
     max-width: 335px;
-  }
+}
 
-  .ulList {
+.ulList {
+    counter-reset: listItem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 12px 27px 12px 24px;
+    padding: 40px 0px 12px 0px;
     gap: 10px;
     border-radius: 15px 0px 0px 0px;
-  }
+}
 
-  .listItem {
+.listItem {
     background-color: #fbfbfb;
     display: flex;
-    flex-direction: column;
-    position: relative;
-
     font-family: Inter Tight;
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
     letter-spacing: -0.02em;
     text-align: left;
-
-    padding: 12px 27px 12px 24px;
-    gap: 10px;
-    border-radius: 15px 0px 0px 0px;
-    opacity: 0px;
-
+    gap: 24px;
     border-radius: 15px;
-    max-width: 500px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+    align-items: center;
+    flex-direction: row;
+    padding: 12px 27px 12px 24px;
 
-  .liParagraph {
+
+}
+
+.listItem::before {
+    text-align: center;
+    counter-increment: listItem;
+    display: block;
+    content: counter(listItem);
+    min-width: 42px;
+    height: 42px;
+    background-color: #7a3145;
+}
+
+.liParagraph {
     font-family: Inter Tight;
     font-size: 12px;
     font-weight: 500;
@@ -251,19 +104,19 @@ section {
     text-align: left;
 
     color: #14141499;
-  }
+}
 
-  .liParagraphSpan {
+.paragraphTextSpan {
     font-family: Inter Tight;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
     letter-spacing: -0.02em;
     text-align: left;
-    background: #141414;
-  }
+    color: #141414;
+}
 
-  .headingSpan {
+.headingSpan {
     font-family: Inter Tight;
     font-size: 28px;
     font-weight: 600;
@@ -271,13 +124,157 @@ section {
     letter-spacing: -0.015em;
     text-align: left;
     color: #fbfbfb4d;
-  }
+}
+
+/* Styles for Mobile devices */
+section {
+    padding: 80px 0;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    section {
+        padding: 100px 0;
+    }
+
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    /* Image Section */
+
+    .imageSection {
+        background-color: #7a3145;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .hImage {
+        gap: 0px;
+        border-radius: 30px 0px 0px 0px;
+        opacity: 0px;
+    }
+
+    /* Info Section */
+
+    .infoSection {
+        background-color: #576f35;
+        padding: 80px 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textContainer {
+        gap: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headText {
+        font-family: Inter Tight;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: #fbfbfb;
+        width: 335px;
+    }
+
+    .paragraphText {
+        font-family: Inter Tight;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #fbfbfb;
+        width: 335px;
+    }
+
+    .listContainer {
+        max-width: 335px;
+    }
+
+    .ulList {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 12px 27px 12px 24px;
+        gap: 10px;
+        border-radius: 15px 0px 0px 0px;
+    }
+
+    .listItem {
+        background-color: #fbfbfb;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+        padding: 12px 27px 12px 24px;
+        gap: 10px;
+        border-radius: 15px 0px 0px 0px;
+        opacity: 0px;
+
+        border-radius: 15px;
+        max-width: 500px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .liParagraph {
+        font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+        color: #14141499;
+    }
+
+    .liParagraphSpan {
+        font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        background: #141414;
+    }
+
+    .headingSpan {
+        font-family: Inter Tight;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: #fbfbfb4d;
+    }
 }
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 100px;
-  }
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
 }
