@@ -86,13 +86,25 @@
 }
 
 .listItem::before {
-    text-align: center;
+
     counter-increment: listItem;
-    display: block;
     content: counter(listItem);
     min-width: 42px;
     height: 42px;
     background-color: #7a3145;
+
+    outline: 5px solid rgba(255, 106, 146, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBFBFB;
+
+    font-size: 20px;
+    font-weight: 600;
+
+
+    ;
 }
 
 .liParagraph {
