@@ -1,0 +1,43 @@
+<section class="order-wrapper">
+    <div class="section-order container">
+        <h2 class="order-tittle">
+            Fresh <span class="order-span">Harvest</span> Box has got you covered
+        </h2>
+        <p class="section-order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to
+            eat healthier or support local
+            farmers. Order your box today and start enjoying the best that nature has to offer!
+        </p>
+        <div class="order-box">
+            <div class="order">
+                <p class="order-text">Ordering <span class="span-from-us">from us</span> is quick and easy! Fill out <span
+                        class="span-the-form"> the form</span> below and we will contact you !</p>
+                <form class="order-form">
+                    <input class="order-form-input" type="text" name="user-name" placeholder="Full name"
+                        pattern="[a-zA-Z\s]{1,}" required>
+                    <input class="order-form-input" type="email" name="user-mail" placeholder="Email"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                    <textarea class="order-form-input-comment" name="user-comment" id="user-comment" placeholder="Comment"
+                        required></textarea>
+                    <button class="order-btn" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="order-soc">
+                <div class="order-photo">
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="/img/order/order-desc-1x.webp 1x, /img/order/order-desc-2x.webp 2x">
+                        <source media="(min-width: 768px)" srcset="/img/order/order-tablet-1x.webp 1x, /img/order/order-tablet-2x.webp 2x">
+                        <source media="(max-width: 767px)" srcset="/img/order/order-mob-1x.webp 1x, /img/order/order-mob-2x.webp 2x">
+                        <img src="/img/order/order-mob-1x.webp" alt="Woman makes juice" class="order-img">
+                    </picture>
+                </div>
+                
+                <p class="order-soc-txt">Follow us on our social networks:</p>
+                <ul class="order-soc-list">
+                    <li><a href="https://www.instagram.com/goitclub/" target="_blank">instagram /</a></li>
+                    <li><a href="https://www.facebook.com/goITclub/" target="_blank">facebook /</a></li>
+                    <li><a href="https://www.youtube.com/c/GoIT" target="_blank">youtube /</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
