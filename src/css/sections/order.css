@@ -168,6 +168,11 @@
   gap: 8px;
 }
 
+.order-soc-list a span:hover,
+.order-soc-list a span:focus {
+  color: #7a3145;
+}
+
 .order-form-input:focus,
 .order-form-input-comment:focus {
   border-color: #7a3145;
