@@ -1,10 +1,4 @@
 /* Styles for Mobile devices */
-* {
-  box-sizing: border-box;
-}
-section {
-  padding: 80px 0;
-}
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -13,9 +7,6 @@ section {
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  section {
-    padding: 100px 0;
-  }
   .container {
     max-width: 768px;
     padding: 0 32px;

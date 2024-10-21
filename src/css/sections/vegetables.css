@@ -1,5 +1,6 @@
 .section-vegetables {
   background-color: var(--color-maroon);
+  padding: 80px 0;
 }
 .title-vegetables {
   font-weight: 600;
@@ -57,6 +58,9 @@
   margin-right: auto;
 }
 @media only screen and (min-width: 768px) {
+  .section-vegetables {
+    padding: 100px 0;
+  }
   .title-vegetables {
     font-size: 64px;
     line-height: 1;

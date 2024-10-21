@@ -1,9 +1,6 @@
-.section-order {
-  box-sizing: border-box;
-}
-
 .order-wrapper {
   background-color: #7a3145;
+  padding: 80px 0;
 }
 
 .order-tittle {
@@ -188,6 +185,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .order-wrapper {
+    padding: 100px 0;
+  }
   .order-tittle {
     font-size: 64px;
     line-height: 1;
