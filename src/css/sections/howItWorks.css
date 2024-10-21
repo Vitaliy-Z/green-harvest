@@ -1,4 +1,7 @@
 /* npm run dev*/
+
+.sectionContent {}
+
 /* Image Section */
 
 .imageSection {
@@ -6,13 +9,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
 .hImage {
-    gap: 0px;
     border-radius: 30px 0px 0px 0px;
-    opacity: 0px;
 }
 
 /* Info Section */
@@ -161,6 +162,7 @@ section {
         padding: 0 32px;
     }
 
+    /* npm run dev*/
     /* Image Section */
 
     .imageSection {
@@ -168,7 +170,7 @@ section {
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 40px 0;
+        padding: 100px 64px;
     }
 
     .hImage {
@@ -181,7 +183,7 @@ section {
 
     .infoSection {
         background-color: #576f35;
-        padding: 80px 20px;
+        padding: 80px 159px;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -220,10 +222,11 @@ section {
     }
 
     .ulList {
+        counter-reset: listItem;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 12px 27px 12px 24px;
+        padding: 40px 0px 12px 0px;
         gap: 10px;
         border-radius: 15px 0px 0px 0px;
     }
@@ -231,24 +234,41 @@ section {
     .listItem {
         background-color: #fbfbfb;
         display: flex;
-        flex-direction: column;
-        position: relative;
-
         font-family: Inter Tight;
         font-size: 12px;
         font-weight: 500;
         line-height: 14px;
         letter-spacing: -0.02em;
         text-align: left;
-
-        padding: 12px 27px 12px 24px;
-        gap: 10px;
-        border-radius: 15px 0px 0px 0px;
-        opacity: 0px;
-
+        gap: 24px;
         border-radius: 15px;
-        max-width: 500px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        flex-direction: row;
+        padding: 12px 27px 12px 24px;
+
+
+    }
+
+    .listItem::before {
+
+        counter-increment: listItem;
+        content: counter(listItem);
+        min-width: 42px;
+        height: 42px;
+        background-color: #7a3145;
+
+        outline: 5px solid rgba(255, 106, 146, 0.3);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FBFBFB;
+
+        font-size: 20px;
+        font-weight: 600;
+
+
+        ;
     }
 
     .liParagraph {
@@ -262,14 +282,14 @@ section {
         color: #14141499;
     }
 
-    .liParagraphSpan {
+    .paragraphTextSpan {
         font-family: Inter Tight;
         font-size: 12px;
         font-weight: 700;
         line-height: 14px;
         letter-spacing: -0.02em;
         text-align: left;
-        background: #141414;
+        color: #141414;
     }
 
     .headingSpan {
