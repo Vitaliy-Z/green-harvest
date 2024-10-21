@@ -1,6 +1,8 @@
 /* npm run dev*/
 
-.sectionContent {}
+.howItWorkSection {
+    padding: 0;
+}
 
 /* Image Section */
 
@@ -9,7 +11,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 40px 0px;
 }
 
 .hImage {
@@ -20,7 +22,7 @@
 
 .infoSection {
     background-color: #576f35;
-    padding: 80px 20px;
+    padding: 80px 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -144,7 +146,7 @@ section {
     padding: 80px 0;
 }
 
-.container {
+.howItWorkSection .container {
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
@@ -157,7 +159,7 @@ section {
         padding: 100px 0;
     }
 
-    .container {
+    .howItWorkSection .container {
         max-width: 768px;
         padding: 0 32px;
     }
@@ -170,7 +172,7 @@ section {
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 100px 64px;
+        padding: 100px 0px;
     }
 
     .hImage {
@@ -183,7 +185,7 @@ section {
 
     .infoSection {
         background-color: #576f35;
-        padding: 80px 159px;
+        padding: 100px 0px;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -304,8 +306,153 @@ section {
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-    .container {
+
+
+    .imageSection {
+        background-color: #7a3145;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0px;
+    }
+
+    .hImage {
+        gap: 0px;
+        border-radius: 30px 0px 0px 0px;
+        opacity: 0px;
+    }
+
+    /* Info Section */
+
+    .infoSection {
+        background-color: #576f35;
+        padding: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textContainer {
+        gap: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headText {
+        font-family: Inter Tight;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: #fbfbfb;
+    }
+
+    .paragraphText {
+        font-family: Inter Tight;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #fbfbfb;
+    }
+
+    .ulList {
+        counter-reset: listItem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 40px 0px 12px 0px;
+        gap: 10px;
+        border-radius: 15px 0px 0px 0px;
+    }
+
+    .listItem {
+        background-color: #fbfbfb;
+        display: flex;
+        font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        gap: 24px;
+        border-radius: 15px;
+        align-items: center;
+        flex-direction: row;
+        padding: 12px 25px 12px 24px;
+
+
+    }
+
+    .listItem::before {
+
+        counter-increment: listItem;
+        content: counter(listItem);
+        min-width: 42px;
+        height: 42px;
+        background-color: #7a3145;
+
+        outline: 5px solid rgba(255, 106, 146, 0.3);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FBFBFB;
+
+        font-size: 20px;
+        font-weight: 600;
+
+
+        ;
+    }
+
+    .liParagraph {
+        font-family: Inter Tight;
+        text-align: left;
+        color: #14141499;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+
+
+    }
+
+    .paragraphTextSpan {
+        font-family: Inter Tight;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        color: #141414;
+    }
+
+    .headingSpan {
+        font-family: Inter Tight;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: #fbfbfb4d;
+    }
+
+    /* Section */
+    .howItWorkSection {
+        display: flex;
+        justify-content: center;
+    }
+
+    .howItWorkSection .container {
+        max-width: 650px;
+        padding: 100px;
+    }
+
+    .imageSection .container {
         max-width: 1280px;
         padding: 0 100px;
+
     }
+
 }
