@@ -40,7 +40,7 @@
     letter-spacing: -0.015em;
     text-align: left;
     color: #fbfbfb;
-    width: 335px;
+    width: 320;
 }
 
 .paragraphText {
@@ -50,11 +50,11 @@
     line-height: 18px;
     text-align: left;
     color: #fbfbfb;
-    width: 335px;
+    width: 320;
 }
 
 .listContainer {
-    max-width: 335px;
+    max-width: 320;
 }
 
 .ulList {
@@ -202,7 +202,7 @@ section {
         letter-spacing: -0.015em;
         text-align: left;
         color: #fbfbfb;
-        width: 335px;
+        width: 320;
     }
 
     .paragraphText {
@@ -212,11 +212,11 @@ section {
         line-height: 18px;
         text-align: left;
         color: #fbfbfb;
-        width: 335px;
+        width: 320;
     }
 
     .listContainer {
-        max-width: 335px;
+        max-width: 320;
     }
 
     .ulList {
