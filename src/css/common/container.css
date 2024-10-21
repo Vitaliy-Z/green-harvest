@@ -1,4 +1,7 @@
 /* Styles for Mobile devices */
+* {
+  box-sizing: border-box;
+}
 section {
   padding: 80px 0;
 }

@@ -1,0 +1,64 @@
+.header-menu-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header-menu-modal-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 288px;
+    gap: 8px;
+}
+
+.header-menu-modal-list {
+    list-style-type: none;
+}
+
+.header-menu-modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 115px;
+    min-height: 42px;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    background-color: transparent;
+    color: var(--main-text);
+    border-radius: 12px;
+    transition: 0.25s;
+    font-weight: 500;
+}
+
+.header-menu-modal-button:hover,
+.header-menu-modal-button:focus {
+    background-color: var(--main-text);
+    color: var(--background-2);
+}
+
+.header-menu-shop-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 155px;
+    min-height: 50px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--main-text);
+    color: var(--background-2);
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+.header-menu-shop-button:hover,
+.header-menu-shop-button:focus {
+    background: #622133;
+}
+
+.is-open {
+    display: block;
+}
