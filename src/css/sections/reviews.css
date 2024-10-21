@@ -1,82 +1,72 @@
 /* Reviews */
 .reviews {
-  padding: 80px 0;
   background-color: #fbfbfb;
 }
 .reviews-title {
-  color: #141414;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.01em;
+  color: #141414;
   text-transform: uppercase;
-  max-width: 335px;
 }
 .reviews-title span {
   color: #576f35;
 }
 .reviews-text {
-  color: #141414;
+  margin-bottom: 40px;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.28;
-  max-width: 335px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  line-height: 1.29;
+  color: #141414;
 }
 .reviews-list {
   display: flex;
   margin: 0 auto;
 }
 .reviews-item {
-  width: 335px;
-  padding: 20px 16px;
-  border-radius: 24px;
+  padding: 20px 16px 38px;
   border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
 }
-.reviews-item:first-child {
-  padding-right: 24px;
-}
-.reviews-item:nth-child(2),
-.reviews-item:last-child {
+.reviews-item:not(:first-child) {
   display: none;
 }
 .reviews-img {
-  border-radius: 50%;
   margin: 0 auto;
+  margin-bottom: 24px;
+  border-radius: 50%;
 }
 .reviews-subtitle {
-  color: #141414;
+  margin-bottom: 8px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.25;
-  letter-spacing: -0.32px;
-  margin-top: 24px;
-  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  color: #141414;
 }
 .reviews-item-text {
-  color: rgba(4, 3, 6, 0.4);
   text-align: center;
   font-size: 14px;
-  font-weight: 600;
-  line-height: 1.2;
+  font-weight: 500;
+  line-height: 1.29;
+  color: rgba(4, 3, 6, 0.4);
 }
 
 @media screen and (min-width: 768px) {
   .reviews-title {
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: -0.96px;
     max-width: 553px;
+    margin-bottom: 25px;
+    font-size: 64px;
+    line-height: 1;
   }
   .reviews-text {
+    margin-bottom: 50px;
+    max-width: 553px;
     font-size: 16px;
     line-height: 1.25;
-    max-width: 553px;
-    margin-top: 25px;
-    margin-bottom: 50px;
   }
   .reviews-list {
     gap: 18px;
@@ -85,17 +75,17 @@
     display: block;
   }
   .reviews-item {
-    padding: 20px;
     width: calc((100% - 18px) / 2);
+    padding: 20px;
   }
   .reviews-subtitle {
     font-size: 18px;
     line-height: 1.1;
-    letter-spacing: -0.36px;
   }
   .reviews-item-text {
     font-size: 16px;
     line-height: 1.4;
+    color: rgba(20, 20, 20, 0.4);
   }
 }
 
