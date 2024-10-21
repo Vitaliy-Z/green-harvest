@@ -101,12 +101,13 @@
     padding: 0;
     flex-direction: row;
     justify-content: center;
-    gap: 28px;
+    gap: 0px;
   }
   .hero-container {
     padding: 0;
     padding-top: 238px;
     padding-left: 100px;
+    padding-right: 28px;
   }
   .hero-title {
     font-size: 76px;
