@@ -35,7 +35,7 @@
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="header-nav-item">
-              <a class="header-nav-link" href="#">How It Works</a>
+              <a class="header-nav-link" href="#how-it-works">How It Works</a>
             </li>
             <li class="header-nav-item">
               <a class="header-nav-link" href="#vegetables">Vegetables</a>
@@ -45,7 +45,7 @@
             </li>
           </ul>
         </nav>
-        <button class="header-navbar-button">SHOP NOW</button>
+        <button class="header-navbar-button" data-btn-shop-now>SHOP NOW</button>
       </div>
       <button class="header-burger-button" data-header-burger-button>
         <svg class="header-burger-icon" width="32" height="32">
@@ -67,17 +67,37 @@
         <nav>
           <ul class="header-mobile-menu-list">
             <li class="header-mobile-menu-item">
-              <a class="header-mobile-menu-link" href="#">How It Works</a>
+              <a
+                class="header-mobile-menu-link"
+                href="#"
+                data-mob-menu-link-works
+                >How It Works</a
+              >
             </li>
             <li class="header-mobile-menu-item">
-              <a class="header-mobile-menu-link" href="#">Vegetables</a>
+              <a
+                class="header-mobile-menu-link"
+                href="#"
+                data-mob-menu-link-vegetables
+                >Vegetables</a
+              >
             </li>
             <li class="header-mobile-menu-item">
-              <a class="header-mobile-menu-link" href="#">Reviews</a>
+              <a
+                class="header-mobile-menu-link"
+                href="#"
+                data-mob-menu-link-reviews
+                >Reviews</a
+              >
             </li>
           </ul>
         </nav>
-        <button class="header-mobile-menu-shop-now-button">shop now</button>
+        <button
+          class="header-mobile-menu-shop-now-button"
+          data-mob-menu-btn-shop-now
+        >
+          shop now
+        </button>
       </div>
     </div>
   </div>
@@ -97,7 +117,7 @@
   <div class="hero-bg-image"></div>
 </section>
 
-      <section class="howItWorkSection">
+      <section class="howItWorkSection" id="how-it-works">
   <div class="imageWrapper">
     <div class="container">
       <picture class="howItWork-img">
@@ -328,7 +348,7 @@
   </div>
 </section>
 
-      <section class="order-wrapper">
+      <section class="order-wrapper" data-order-section>
   <div class="section-order container">
     <h2 class="order-tittle">
       Fresh <span class="order-span">Harvest</span> Box has got you covered
@@ -437,7 +457,7 @@
         <nav class="footer-nav">
           <ul class="footer-nav-list">
             <li class="footer-nav-list-item">
-              <a class="footer-nav-link" href="#how it works">how it works</a>
+              <a class="footer-nav-link" href="#how-it-works">how it works</a>
             </li>
             <li class="footer-nav-list-item">
               <a class="footer-nav-link" href="#vegetables">vegetables</a>
