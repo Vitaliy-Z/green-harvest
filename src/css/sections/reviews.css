@@ -26,7 +26,7 @@
   margin: 0 auto;
 }
 .reviews-item {
-  padding: 20px 16px 38px;
+  padding: 20px 23.5px 38px;
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
 }
@@ -76,7 +76,7 @@
   }
   .reviews-item {
     width: calc((100% - 18px) / 2);
-    padding: 20px;
+    padding: 20px 27.5px;
   }
   .reviews-subtitle {
     font-size: 18px;
