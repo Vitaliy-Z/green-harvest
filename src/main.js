@@ -4,7 +4,6 @@ const ref = {
 };
 const submitForm = e => {
   e.preventDefault();
-  alert('Ваша коментар доданий');
   ref.orderForm.reset();
 };
-ref.orderBtn.addEventListener('click', submitForm);
+ref.orderForm.addEventListener('submit', submitForm);
