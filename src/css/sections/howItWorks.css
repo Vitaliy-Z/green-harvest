@@ -11,7 +11,13 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 40px 0px;
+
+}
+
+.imageSection .container {
+    max-width: 1280px;
+    padding: 40px 20px;
+
 }
 
 .hImage {
@@ -27,6 +33,7 @@
     display: flex;
     flex-direction: column;
 }
+
 
 .textContainer {
     gap: 20px;
@@ -56,17 +63,14 @@
     width: 320;
 }
 
-.listContainer {
-    max-width: 320;
-}
+
 
 .ulList {
     counter-reset: listItem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 40px 0px 12px 0px;
-    gap: 10px;
+    gap: 20px;
     border-radius: 15px 0px 0px 0px;
 }
 
@@ -105,6 +109,7 @@
 
     font-size: 20px;
     font-weight: 600;
+    margin: 5px 0;
 
 
     ;
@@ -150,7 +155,9 @@ section {
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
-    padding: 0 20px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
 }
 
 /* Styles for Tablet devices */
@@ -161,7 +168,11 @@ section {
 
     .howItWorkSection .container {
         max-width: 768px;
-        padding: 0 32px;
+        margin: 0 auto;
+        display: flex;
+        gap: 50px;
+        padding: 0 159px;
+        flex-direction: column;
     }
 
     /* npm run dev*/
@@ -172,7 +183,13 @@ section {
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 100px 0px;
+
+    }
+
+    .imageSection .container {
+        max-width: 768px;
+        padding: 100px 64px;
+
     }
 
     .hImage {
@@ -192,7 +209,7 @@ section {
     }
 
     .textContainer {
-        gap: 20px;
+        gap: 25px;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -200,9 +217,9 @@ section {
 
     .headText {
         font-family: Inter Tight;
-        font-size: 28px;
+        font-size: 32px;
         font-weight: 600;
-        line-height: 28px;
+        line-height: 32px;
         letter-spacing: -0.015em;
         text-align: left;
         color: #fbfbfb;
@@ -219,17 +236,12 @@ section {
         width: 320;
     }
 
-    .listContainer {
-        max-width: 320;
-    }
-
     .ulList {
         counter-reset: listItem;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 40px 0px 12px 0px;
-        gap: 10px;
+        gap: 20px;
         border-radius: 15px 0px 0px 0px;
     }
 
@@ -268,7 +280,7 @@ section {
 
         font-size: 20px;
         font-weight: 600;
-
+        margin: 5px 0;
 
         ;
     }
@@ -295,9 +307,9 @@ section {
 
     .headingSpan {
         font-family: Inter Tight;
-        font-size: 28px;
+        font-size: 32px;
         font-weight: 600;
-        line-height: 28px;
+        line-height: 32px;
         letter-spacing: -0.015em;
         text-align: left;
         color: #fbfbfb4d;
@@ -313,7 +325,7 @@ section {
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 100px 0px;
+
     }
 
     .hImage {
@@ -363,8 +375,7 @@ section {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 40px 0px 12px 0px;
-        gap: 10px;
+        gap: 20px;
         border-radius: 15px 0px 0px 0px;
     }
 
@@ -402,7 +413,9 @@ section {
         color: #FBFBFB;
 
         font-size: 20px;
+
         font-weight: 600;
+        margin: 5px 0;
 
 
         ;
@@ -451,7 +464,7 @@ section {
 
     .imageSection .container {
         max-width: 1280px;
-        padding: 0 100px;
+        padding: 100px;
 
     }
 
