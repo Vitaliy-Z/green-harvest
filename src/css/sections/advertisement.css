@@ -1,0 +1,75 @@
+.advertisement{
+    box-sizing: border-box;
+    background-color: #fbfbfb;;
+}
+.adver-text{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    
+}
+
+.green-adver {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    padding: 3px 10px;
+
+    background-color: #576f35;
+    border-radius: 12px;
+    width: 355px;
+    height: 102px;
+    margin: 0 auto;
+}
+
+.adver-span {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+.adver-text {
+        
+    font-size: 64px;
+    line-height: 1.1;
+    }
+.green-adver{
+    font-size: 64px;
+    line-height: 1.1;
+    width: 736px;
+    height: 86px;
+    padding: 8px 16px;
+        
+}
+}
+
+@media screen and (min-width: 1280px){
+    .green-adver{
+    display: none;
+    }
+
+    .adver-text {
+    font-size: 76px;
+    line-height: 1.05;
+    padding-left: 0;
+    max-width: 1070px;
+    }
+    
+    .adver-span{
+    display: inline-block;
+    color: #fbfbfb;
+    padding: 0px 10px;
+    background-color: #576f35;
+    border-radius: 12px;
+    }
+
+    .adver-text-part,.adver-text-part2{
+           padding-left: 10px;
+    }
+                
+    }
